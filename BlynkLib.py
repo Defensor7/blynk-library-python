@@ -83,6 +83,8 @@ def sleep_from_until (start, delay):
             idle_func()
     else:
         time.sleep(delay/1000)
+
+    time.sleep(0.01)
     return start + delay
 
 class VrPin:
